@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000;
+}
+
+body > .box {
+  position: relative;
+  background-color: #000;
+}
+
+body > .box #pow {
+  position: fixed;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #ffff;
+  color: #000;
+  font-size: 2.3em;
+  padding: 5px 20px;
+  -webkit-box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+  font-family: cursive;
+}
+
+body > .box:hover > #pow {
+  opacity: 1;
+  visibility: visible;
+}
+/*# sourceMappingURL=mos.css.map */
